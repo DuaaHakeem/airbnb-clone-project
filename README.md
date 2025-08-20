@@ -87,4 +87,43 @@ Users can leave ratings and reviews for properties they have stayed in. This con
 6. **Database Optimization**
 
 Indexes and caching strategies are implemented to improve the speed and efficiency of data retrieval. This ensures the platform can scale effectively while maintaining fast response times.
-     
+
+
+
+## API Security
+
+1. **Authentication**
+
+All API endpoints are protected with secure authentication mechanisms. This ensures that only verified users can access the system and prevents impersonation attacks.
+
+Why it matters: Protects user accounts and ensures that only valid sessions can interact with the backend.
+
+2. **Authorization**
+
+Role-based access control is implemented to ensure users can only access resources and perform actions they are permitted to (e.g., a guest cannot edit another host’s property).
+
+Why it matters: Prevents unauthorized modifications to listings, bookings, or payments.
+
+3. **Data Encryption**
+
+Sensitive data such as passwords and payment details are encrypted both at rest and in transit.
+
+Why it matters: Protects confidential information from interception or leaks.
+
+4. **Rate Limiting & Throttling**
+
+Rate limiting mechanisms are used to prevent abuse such as brute-force login attempts or denial-of-service (DoS) attacks.
+
+Why it matters: Ensures system stability and prevents malicious overload of the backend.
+
+5. **Input Validation & Sanitization**
+
+All incoming data is validated and sanitized to prevent SQL injection, XSS, and other common attacks.
+
+Why it matters: Protects the database and application from malicious or malformed requests.
+
+6. **Secure Payment Handling**
+
+Payment transactions are processed through secure gateways and sensitive financial data is never stored directly in the system.
+
+Why it matters: Ensures trust in the platform by protecting users’ financial details.
