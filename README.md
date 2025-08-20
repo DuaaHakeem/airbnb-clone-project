@@ -17,8 +17,7 @@ This project is a full-stack web application, developed as a clone of Airbnb usi
   
 
 
-
-  ## Technology Stack  
+ ## Technology Stack  
 - **Django**: A high-level Python web framework used for building the RESTful API.  
 - **Django REST Framework (DRF)**: Provides tools for creating and managing RESTful APIs.  
 - **PostgreSQL**: A powerful relational database used for data storage.  
@@ -29,7 +28,7 @@ This project is a full-stack web application, developed as a clone of Airbnb usi
 - **CI/CD Pipelines**: Automated pipelines for testing and deploying code changes.
 
 
-## 👥 Team Roles
+## Team Roles
 
 - **Backend Developer**: Implement the core of an app, its algorithms and business logic and perform the tasks of an architec.
 - **Database Administrator**: Manages database design, indexing, and optimizations. 
@@ -62,7 +61,7 @@ This project is a full-stack web application, developed as a clone of Airbnb usi
    - Relationships: A review belongs to a user and a property.
 
 
-  ## Feature Breakdown
+## Feature Breakdown
 
   1. **User Management**
 
