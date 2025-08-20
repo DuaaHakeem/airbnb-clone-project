@@ -37,3 +37,28 @@ This project is a full-stack web application, developed as a clone of Airbnb usi
 - **QA Engineer**: Makes sure an application performs according to requirements and spots functional and non-functional defects.
 
   
+ ## Database Design
+
+ ### Key Entities  
+
+1. **Users**  
+   - Fields: `user_id`, `name`, `email`, `password_hash`, `role`  
+   - Relationships: A user can list multiple properties, make multiple bookings, and leave reviews.  
+
+2. **Properties**  
+   - Fields: `property_id`, `owner_id (FK to Users)`, `title`, `description`, `location`, `price_per_night`  
+   - Relationships: A property belongs to a user (owner) and can have multiple bookings and reviews.  
+
+3. **Bookings**  
+   - Fields: `booking_id`, `user_id (FK to Users)`, `property_id (FK to Properties)`, `start_date`, `end_date`, `status`  
+   - Relationships: A booking belongs to a user and a property.  
+
+4. **Payments**  
+   - Fields: `payment_id`, `booking_id (FK to Bookings)`, `amount`, `payment_method`, `payment_status`  
+   - Relationships: A payment is linked to a booking.  
+
+5. **Reviews**  
+   - Fields: `review_id`, `user_id (FK to Users)`, `property_id (FK to Properties)`, `rating`, `comment`  
+   - Relationships: A review belongs to a user and a property.
+  
+     
