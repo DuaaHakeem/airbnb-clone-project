@@ -92,6 +92,8 @@ Indexes and caching strategies are implemented to improve the speed and efficien
 
 ## API Security
 
+Ensuring the security of the backend APIs is critical to protect sensitive user data, maintain trust, and safeguard financial transactions. The Airbnb Clone project implements multiple layers of security to prevent unauthorized access and misuse of the platform.
+
 1. **Authentication**
 
 All API endpoints are protected with secure authentication mechanisms. This ensures that only verified users can access the system and prevents impersonation attacks.
@@ -127,3 +129,26 @@ Why it matters: Protects the database and application from malicious or malforme
 Payment transactions are processed through secure gateways and sensitive financial data is never stored directly in the system.
 
 Why it matters: Ensures trust in the platform by protecting users’ financial details.
+
+
+## CI/CD Pipeline
+
+A CI/CD pipeline (Continuous Integration/Continuous Deployment) automates the process of building, testing, and deploying code changes. It ensures that new features, bug fixes, and updates are integrated smoothly into the project without disrupting existing functionality.
+
+### Why CI/CD is Important
+
+- Consistency: Every code change goes through the same automated process, reducing human error.
+
+- Faster Development: Automating testing and deployment speeds up the release cycle.
+
+- Early Bug Detection: Automated testing helps catch issues before they reach production.
+
+- Scalability: Supports frequent updates while maintaining system stability.
+
+### Tools Used
+
+- GitHub Actions – Automates testing, builds, and deployment workflows.
+
+- Docker – Provides consistent environments across development, staging, and production.
+
+- CI/CD Services (Optional) – Tools like Jenkins or GitLab CI/CD can also be used depending on team preference.
