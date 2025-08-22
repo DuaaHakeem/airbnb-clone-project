@@ -93,45 +93,65 @@ Indexes and caching strategies are implemented to improve the speed and efficien
 
 
 
-## API Security
+## Feature Breakdown  
 
-Ensuring the security of the backend APIs is critical to protect sensitive user data, maintain trust, and safeguard financial transactions. The Airbnb Clone project implements multiple layers of security to prevent unauthorized access and misuse of the platform.
+### 1. User Management  
+- Secure registration and login  
+- Profile management for hosts and guests  
+- Authenticated access ensures data security and personalized experiences  
 
-1. **Authentication**
+### 2. Property Management  
+- Hosts can create, update, and manage property listings  
+- Includes detailed descriptions, pricing, and availability  
+- Makes it easy for guests to browse and book accommodations  
 
-All API endpoints are protected with secure authentication mechanisms. This ensures that only verified users can access the system and prevents impersonation attacks.
+### 3. Booking System  
+- Users can reserve properties and manage reservations  
+- Handles check-in and check-out details  
+- Provides a smooth and reliable booking experience  
 
-Why it matters: Protects user accounts and ensures that only valid sessions can interact with the backend.
+### 4. Payment Processing  
+- Secure payment integration for bookings  
+- Ensures accurate record-keeping of transactions  
+- Builds trust through safe financial handling  
 
-2. **Authorization**
+### 5. Review System  
+- Guests can leave ratings and reviews after their stay  
+- Promotes transparency and helps future guests make informed decisions  
+- Provides valuable feedback to hosts  
 
-Role-based access control is implemented to ensure users can only access resources and perform actions they are permitted to (e.g., a guest cannot edit another host’s property).
+### 6. Database Optimization  
+- Indexes and caching strategies for faster data retrieval  
+- Improves performance and scalability  
+- Ensures consistent response times even with high traffic  
 
-Why it matters: Prevents unauthorized modifications to listings, bookings, or payments.
 
-3. **Data Encryption**
+## API Security  
 
-Sensitive data such as passwords and payment details are encrypted both at rest and in transit.
+### 1. Authentication  
+- All API endpoints are protected with secure authentication mechanisms  
+- **Why it matters:** Prevents impersonation attacks and ensures only verified users can access the system  
 
-Why it matters: Protects confidential information from interception or leaks.
+### 2. Authorization  
+- Role-based access control (RBAC) to limit actions to permitted users  
+- **Why it matters:** Prevents unauthorized modifications to listings, bookings, or payments  
 
-4. **Rate Limiting & Throttling**
+### 3. Data Encryption  
+- Sensitive data (passwords, payments) encrypted at rest and in transit  
+- **Why it matters:** Protects confidential information from interception or leaks  
 
-Rate limiting mechanisms are used to prevent abuse such as brute-force login attempts or denial-of-service (DoS) attacks.
+### 4. Rate Limiting & Throttling  
+- Restricts excessive requests to prevent brute-force or DoS attacks  
+- **Why it matters:** Maintains platform stability and reliability  
 
-Why it matters: Ensures system stability and prevents malicious overload of the backend.
+### 5. Input Validation & Sanitization  
+- Validates and sanitizes all incoming data  
+- **Why it matters:** Protects against SQL injection, XSS, and other malicious inputs  
 
-5. **Input Validation & Sanitization**
-
-All incoming data is validated and sanitized to prevent SQL injection, XSS, and other common attacks.
-
-Why it matters: Protects the database and application from malicious or malformed requests.
-
-6. **Secure Payment Handling**
-
-Payment transactions are processed through secure gateways and sensitive financial data is never stored directly in the system.
-
-Why it matters: Ensures trust in the platform by protecting users’ financial details.
+### 6. Secure Payment Handling  
+- Payments processed through secure gateways  
+- Sensitive financial details are never stored directly  
+- **Why it matters:** Builds trust and ensures safe financial transactions  
 
 
 ## CI/CD Pipeline
