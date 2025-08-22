@@ -65,33 +65,6 @@ This project is a full-stack web application, developed as a clone of Airbnb usi
    - Relationships: A review belongs to a user and a property.
 
 
-## Feature Breakdown
-
-  1. **User Management**
-
-This feature enables secure registration, login, and profile management for users. It ensures that both hosts and guests have authenticated access to the platform, maintaining data security and personalized experiences.
-
-2. **Property Management**
-
-Hosts can create, update, and manage property listings through this feature. It allows detailed descriptions, pricing, and availability to be stored, making it easy for guests to browse and select accommodations.
-
-3. **Booking System**
-
-The booking feature enables users to reserve properties and manage their reservations. It handles check-in and check-out details, ensuring a smooth and reliable process for both guests and hosts.
-
-4. **Payment Processing**
-
-This feature allows users to make secure payments for their bookings. It integrates transaction handling, ensuring accurate record-keeping of payment details and enhancing trust on the platform.
-
-5. **Review System**
-
-Users can leave ratings and reviews for properties they have stayed in. This contributes to transparency and helps future guests make informed decisions while also providing feedback to hosts.
-
-6. **Database Optimization**
-
-Indexes and caching strategies are implemented to improve the speed and efficiency of data retrieval. This ensures the platform can scale effectively while maintaining fast response times.
-
-
 
 ## Feature Breakdown  
 
