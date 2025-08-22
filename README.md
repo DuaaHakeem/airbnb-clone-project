@@ -1,4 +1,4 @@
-# airbnb-clone-project
+# 🏠 airbnb-clone-project
 
 ## Overview
 This project is a full-stack web application, developed as a clone of Airbnb using Django, MySQL, and GraphQL. It replicates the core functionality of Airbnb by allowing users to create accounts, browse property listings, check availability, and make bookings. The project also includes secure API development, database design for managing users, listings, and reservations, as well as CI/CD pipeline integration with Docker and GitHub Actions to simulate a real-world deployment workflow.
@@ -7,7 +7,7 @@ This project is a full-stack web application, developed as a clone of Airbnb usi
 
 
 
-## Project Goals  
+## 🎯 Project Goals  
 - **User Management**: Implement a secure system for user registration, authentication, and profile management.  
 - **Property Management**: Develop features for property listing creation, updates, and retrieval.  
 - **Booking System**: Create a booking mechanism for users to reserve properties and manage booking details.  
@@ -17,7 +17,7 @@ This project is a full-stack web application, developed as a clone of Airbnb usi
   
 
 
- ## Technology Stack  
+ ## 🛠️ Technology Stack  
 
 | Technology                     | Description                                                                 |
 |--------------------------------|-----------------------------------------------------------------------------|
@@ -31,7 +31,7 @@ This project is a full-stack web application, developed as a clone of Airbnb usi
 | **CI/CD Pipelines**            | Automated pipelines for testing and deploying code changes.                 |
 
 
-## Team Roles  
+## 👥 Team Roles  
 
 | Role                  | Responsibilities                                                                 |
 |-----------------------|----------------------------------------------------------------------------------|
@@ -99,7 +99,7 @@ This project is a full-stack web application, developed as a clone of Airbnb usi
 - Ensures consistent response times even with high traffic  
 
 
-## API Security  
+## 🔒 API Security  
 
 ### 1. Authentication  
 - All API endpoints are protected with secure authentication mechanisms  
@@ -127,7 +127,7 @@ This project is a full-stack web application, developed as a clone of Airbnb usi
 - **Why it matters:** Builds trust and ensures safe financial transactions  
 
 
-## CI/CD Pipeline
+## ⚙️ CI/CD Pipeline
 
 A CI/CD pipeline (Continuous Integration/Continuous Deployment) automates the process of building, testing, and deploying code changes. It ensures that new features, bug fixes, and updates are integrated smoothly into the project without disrupting existing functionality.
 
