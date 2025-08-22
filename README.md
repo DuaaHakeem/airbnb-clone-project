@@ -18,23 +18,27 @@ This project is a full-stack web application, developed as a clone of Airbnb usi
 
 
  ## Technology Stack  
-- **Django**: A high-level Python web framework used for building the RESTful API.  
-- **Django REST Framework (DRF)**: Provides tools for creating and managing RESTful APIs.  
-- **PostgreSQL**: A powerful relational database used for data storage.  
-- **GraphQL**: Enables flexible and efficient querying of data.  
-- **Celery**: Handles asynchronous tasks such as sending notifications or processing payments.  
-- **Redis**: Used for caching and session management.  
-- **Docker**: Containerization tool for consistent development and deployment environments.  
-- **CI/CD Pipelines**: Automated pipelines for testing and deploying code changes.
+
+| Technology                     | Description                                                                 |
+|--------------------------------|-----------------------------------------------------------------------------|
+| **Django**                     | A high-level Python web framework used for building the RESTful API.       |
+| **Django REST Framework (DRF)**| Provides tools for creating and managing RESTful APIs.                      |
+| **PostgreSQL**                 | A powerful relational database used for data storage.                       |
+| **GraphQL**                    | Enables flexible and efficient querying of data.                            |
+| **Celery**                     | Handles asynchronous tasks such as sending notifications or processing payments. |
+| **Redis**                      | Used for caching and session management.                                    |
+| **Docker**                     | Containerization tool for consistent development and deployment environments. |
+| **CI/CD Pipelines**            | Automated pipelines for testing and deploying code changes.                 |
 
 
-## Team Roles
+## Team Roles  
 
-- **Backend Developer**: Implement the core of an app, its algorithms and business logic and perform the tasks of an architec.
-- **Database Administrator**: Manages database design, indexing, and optimizations. 
-- **DevOps Engineer**: Facilitates cooperation between development and operations teams and builds continuous integration and continuous delivery (CI/CD) pipelines for faster delivery.
-- **QA Engineer**: Makes sure an application performs according to requirements and spots functional and non-functional defects.
-
+| Role                  | Responsibilities                                                                 |
+|-----------------------|----------------------------------------------------------------------------------|
+| **Backend Developer** | Implements the app’s core, algorithms, and business logic; also performs architectural tasks. |
+| **Database Administrator** | Manages database design, indexing, and optimizations.                         |
+| **DevOps Engineer**   | Facilitates collaboration between dev and ops teams; builds CI/CD pipelines for faster delivery. |
+| **QA Engineer**       | Ensures the app performs according to requirements; identifies functional and non-functional defects. |
   
  ## Database Design
 
