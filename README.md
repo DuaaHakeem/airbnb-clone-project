@@ -174,4 +174,4 @@ A CI/CD pipeline (Continuous Integration/Continuous Deployment) automates the pr
 
 - Docker – Provides consistent environments across development, staging, and production.
 
-- CI/CD Services (Optional) – Tools like Jenkins or GitLab CI/CD can also be used depending on team preference.
+- CI/CD Services – Tools like Jenkins or GitLab CI/CD can also be used depending on team preference.
